@@ -22,9 +22,16 @@ input:hover{
     text-decoration: underline;
     color: white;
 }
-a{
+a:link{
     text-decoration: none;
+    color: #CE1126;
+    font-weight: 400;
 }
+a:visited{
+    text-decoration: none;
+    color: #CE1126;
+}
+
 ul{
     margin-left: 1.5rem;
 }
