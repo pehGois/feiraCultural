@@ -1,6 +1,7 @@
 :root{
     --brown:#58280fff;
     --beggie:#e8c591ff;
+    --red:#CE1126
 }
 html{
     scroll-behavior: smooth;
@@ -24,12 +25,12 @@ input:hover{
 }
 a:link{
     text-decoration: none;
-    color: #CE1126;
+    color: var(--red);
     font-weight: 400;
 }
 a:visited{
     text-decoration: none;
-    color: #CE1126;
+    color: var(--red);
 }
 ul{
     margin-left: 1.5rem;
@@ -46,7 +47,7 @@ li{
 }
 
 .bg-image{
-    background-image: url('images/backgroundIndex.jpg');
+    background-image: url('images/backgroundIndex.png');
     background-repeat: no-repeat;
     background-size:cover;
     height: 100vh;
