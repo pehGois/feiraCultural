@@ -31,6 +31,9 @@ a:visited{
     text-decoration: none;
     color: #CE1126;
 }
+a{
+    color: #CE1126;
+}
 
 ul{
     margin-left: 1.5rem;
