@@ -171,7 +171,6 @@ nav{
   .gallery-wrapper {
     overflow-x: auto;
 }
-  
   .arrow-left,
   .arrow-right {
     position: absolute;
@@ -189,7 +188,6 @@ nav{
     border: none;
     opacity: 0.1;
 }
-
   .arrow-right {
     right: 0;
     left: auto;
@@ -200,14 +198,11 @@ nav{
 .arrow-left:hover{
     opacity: 1;
 }
-  
-  
   .gallery {
     display: flex;
     flex-flow: row nowrap;
     gap: 15px;
 }
-  
   .item {
     max-width: 450px;
     max-height: 350px;
@@ -215,20 +210,16 @@ nav{
     transition: all 600ms ease-in-out;
     opacity: 0.5;
 }
-  
   .current-item {
     opacity: 1;
 }
-
   .gallery-wrapper::-webkit-scrollbar {
     display: none;
 }
-  
   .gallery-wrapper {
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
-
 footer{
     padding: 1rem;
     background-color: var(--brown);
@@ -236,4 +227,3 @@ footer{
     text-align: center;
     line-height: 1.5rem;
 }
-
