@@ -19,10 +19,12 @@ html{
 input{
     background-color: transparent;
     border: none;
+
 }
 input:hover{
     text-decoration: underline;
     color: white;
+
 }
 a:link{
     text-decoration: none;
@@ -183,21 +185,22 @@ nav{
     color: #fff;
     transition: all 600ms ease-in-out;
     background: linear-gradient(to left, transparent 0%, black 200%);
-    opacity: 0.1;
     cursor: pointer;
     border: none;
+    opacity: 0.1;
 }
-  
-  .arrow-left:hover,.arrow-right:hover {
-    opacity: 1;
-}
-  
+
   .arrow-right {
     right: 0;
     left: auto;
     text-align: right;
     background: linear-gradient(to right, transparent 0%, black 200%);
+    opacity: 1;
 }
+.arrow-left:hover{
+    opacity: 1;
+}
+  
   
   .gallery {
     display: flex;
